@@ -1,0 +1,32 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 500;
+  src: url(./avenir_next/Avenir_Next_Font.ttf);
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v8/pe0qMImSLYBIv1o4X1M8ccewI9tScg.woff2) format('woff2');
+}
+
+
+body {
+  font-family: Avenir Next !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Avenir Next !important;
+}
+
+.btn-bg-blue {
+  background-color: #3f67e9;
+}
+.text-blue {
+  color: #3f67e9 !important;
+}
