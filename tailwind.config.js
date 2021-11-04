@@ -3,7 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-
+      backgroundImage: {
+        'credit-card': 'linear-gradient(50deg, #dc5645, #6063c7 110%)'
+       }
     },
   },
   variants: {
