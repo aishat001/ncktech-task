@@ -40,19 +40,19 @@ export default function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:opacity-75"
-                  href="#about"
+                  href="#trips"
                 >TRIPS</a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:opacity-75"
-                  href="#projects"
+                  href="#viewed"
                 >RECENTLY VIEWED</a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:opacity-75"
-                  href="#contact"
+                  href="#bookings"
                 >BOOKINGS </a>
               </li>
             </ul>

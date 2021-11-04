@@ -65,7 +65,7 @@ export default function Payment() {
                             </div>
                             <div className="md:flex md:items-center mb-6">
                                 <label className="md:w-2/3 block text-gray-500 font-bold inline-flex items-center">
-                                    <input type="radio" className="form-radio text-blue mr-2 leading-tight h-4 w-4" name="radio-sizes" checked/>
+                                    <input type="radio" className="form-radio text-blue mr-2 h-4 w-4" name="radio" value="1" checked/>
                                     <span className="text-sm">
                                     Use this card for next time purchase
                                     </span>
